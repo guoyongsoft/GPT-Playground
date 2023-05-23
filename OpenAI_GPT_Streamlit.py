@@ -3,7 +3,7 @@ import openai
 from datetime import datetime
 from streamlit.components.v1 import html
 
-st.set_page_config(page_title="GPT Response Generator",menu_items=[])
+st.set_page_config(page_title="GPT Response Generator")
 
 html_temp = """
                 <div style="background-color:{};padding:1px">
